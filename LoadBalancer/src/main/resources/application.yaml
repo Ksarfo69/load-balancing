@@ -1,0 +1,11 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: LoadBalancer
+
+  cloud:
+    loadbalancer:
+      ribbon:
+        servers: kwame-server
